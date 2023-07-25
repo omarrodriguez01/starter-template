@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": "true",
+  "repository": "git@github.com:omarrodriguez01/starter-template.git",
+  "author": "Omar <omardanniel@outlook.com>",
+  "license": "MIT",
   "workspaces": {
     "packages": [
       "apps/*"
     ]
   },
-  "repository": "git@github.com:omarrodriguez01/starter-template.git",
-  "author": "Omar <omardanniel@outlook.com>",
-  "license": "MIT"
+  "nohoist": [
+    "**/@nestjs",
+    "**/@nestjs/**"
+  ]
 }
