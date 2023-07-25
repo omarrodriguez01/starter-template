@@ -1,0 +1,14 @@
+{
+  "name": "starter-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": "true",
+  "workspaces": {
+    "packages": [
+      "apps/*"
+    ]
+  },
+  "repository": "git@github.com:omarrodriguez01/starter-template.git",
+  "author": "Omar <omardanniel@outlook.com>",
+  "license": "MIT"
+}
