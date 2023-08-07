@@ -1,17 +1,17 @@
 # starter-template
-Starter Code for Monorepo
+Starter Code for Monorepo with Nest.js and Next.js pre-setup
 
 Install all dependencies with yarn
 `yarn install`
 
 To start backend only 
-`yarn nx start:dev backend`
+`yarn nx start:dev api`
 
 To start frontend only
-`yarn nx start frontend`
+`yarn nx dev web`
 
 To start all with nx
-`yarn nx run-many --parallel --target=start --projects=frontend,backend`
+`yarn nx run-many --parallel --target=start --projects=api,web`
 
 To start all repo with docker
 `docker-compose up`
@@ -28,5 +28,6 @@ To add new project
 [link](https://stackoverflow.com/questions/67463770/how-to-setup-react-native-with-yarn-and-typescript)
  as reference
 
-
+To run your newly added or whatever project with NX from the project's root
+`yarn nx {new projects start up command} {project's name}`
 
